@@ -44,7 +44,7 @@ http.createServer(function(req, res) {
     }
 
     res.writeHead(200, {
-        "Content-Type": "text/plain; charset=utf-8"
+        "Content-Type": "text/calendar; charset=utf-8"
     });
     res.end(cal.toString());
 }).listen(port, function() {
