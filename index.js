@@ -10,11 +10,8 @@ cal.createEvent({
     end: new Date(new Date().getTime() + 3600000),
     summary: 'Example Event',
     description: 'description',
-    location: 'E-404',
-    url: 'https://github.com/s111/icalgen'
+    location: 'E-404'
 });
-
-console.log(cal.toString());
 
 var port = process.env.PORT || 5000;
 
